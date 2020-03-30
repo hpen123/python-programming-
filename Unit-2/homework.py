@@ -4,7 +4,7 @@
 #letter_count('abcde', 'a') #should return 1
 #letter_count('this is going to be easy', 'i') #should return 3
 #letter_count('how about that?', 'z') #should return 0
-'''
+
 letter_count = "how about that?"
 count = 0
   
@@ -13,8 +13,7 @@ for letter in letter_count:
         count = count + 1
   
 print(count)
-'''
-'''
+
 #Problem 2 Write a function called count_words that takes a string and returns the number of words in the string.
 #count_words('hey there!!') #should return 2
 #count words('I\'m staying home because of the epidemic') # shoud return 7
@@ -27,13 +26,13 @@ for words in count_words:
     count = len(count_words.split())
 
 print(count)
- '''
+
 
 #Problem 3 Write a function called reverse_list that takes a list and returns a new list with the items reversed.
 #reverse_list([]) # should return []
 #reverse_list([1, 2, 3]) # should return [3, 2, 1]
 #reverse_list(['this', 'is' 'cool!']) #should return ['cool!', 'is' , 'this']
-'''
+
 def reverse_list(my_list):
     result = []
     for char in my_list:
@@ -42,7 +41,7 @@ def reverse_list(my_list):
 
 print(reverse_list(['this','is', 'cool!']))
 
-'''
+
 # Problem 4 write a function called split_list that takes a list of integers and an integer (called the pivot), and returns a list containing two lists:
 # one with all the numbers less than the pivot
 #the other with all the numbers greater than or equal to the pivot
@@ -52,7 +51,6 @@ print(reverse_list(['this','is', 'cool!']))
 
 #return the items that are in both lists 1 and 2 in a new list
 
-'''
 def split_list(input_list,pivot):
     result_one = []
     result_two = []
@@ -75,6 +73,6 @@ print(split_list([5, 6, 20, -4, -12, 0], -1))
 
 def is_isogram(''):
     if t
-
+'''
 
 
