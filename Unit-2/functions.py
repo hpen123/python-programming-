@@ -94,6 +94,9 @@ def intersect_list(list_1, list_2):
 
 print(intersect_list([1, 2, 3, 4, 'a'], [3, 'a', 'x']))
          
+# dont want to change the data, the data that is passed in we are gonna use to createnew things
+
+def my_func(my_data):
 
 
 
